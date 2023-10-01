@@ -28,10 +28,14 @@ const Navbar = () => {
         <span>Gatsby Starter Contentful</span>
       </Link> */}
         <Link to='/'>Home</Link>
-        <Link href='/about'>About</Link>
-        <Link href='/projects'>Projects</Link>
+        <Link to='/about'>About</Link>
+        <Link to='/projects'>Projects</Link>
         <Link to='/blog'>Blog</Link>
-        <AnchorLink href='#contact'>Contact</AnchorLink>
+        {/* 3 ways to add Nav Link that scrolls to Contact section of HomePage, The last example does not add #contact at the end of url. But others add it. First 3 with href='/contact' or to="/contact" will produce error. it needs to be #contact. Last one with #contact will produce error*/}
+        {/* <a href='#contact'>Contact1</a> */}
+        {/* <Link to='#contact'>Contact2</Link> */}
+        <Link href='#contact'>Contact</Link>
+        {/* <AnchorLink href='/contact'>Contact</AnchorLink> */}
       </div>
     </nav>
     // </BrowserRouter>
