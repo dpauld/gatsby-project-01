@@ -33,8 +33,9 @@ const Navbar = () => {
         <Link to='/blog'>Blog</Link>
         {/* 3 ways to add Nav Link that scrolls to Contact section of HomePage, The last example does not add #contact at the end of url. But others add it. First 3 with href='/contact' or to="/contact" will produce error. it needs to be #contact. Last one with #contact will produce error*/}
         {/* <a href='/#contact'>Contact1</a> */}
-        {/* <Link to='/#contact'>Contact2</Link> */}
-        <Link href='/#contact'>Contact</Link>
+        {/* This works perfectly, last 2 has errors in some situation. */}
+        <Link to='/#contact'>Contact</Link>
+        {/* <Link href='/#contact'>Contact</Link> */}
         {/* <AnchorLink href='/contact'>Contact</AnchorLink> */}
       </div>
     </nav>
