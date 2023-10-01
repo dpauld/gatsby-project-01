@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_project_01=self.webpackChunkgatsby_project_01||[]).push([[216],{41:function(e,t,l){l.r(t),l.d(t,{default:function(){return r}});var n=l(7294),c=l(2114);var r=()=>n.createElement(c.Z,null,n.createElement("section",{className:"projects-module--projects--0e651"},n.createElement("div",null,n.createElement("h2",null,"Portfolio"),n.createElement("h3",null,"Projects and stuffs."))))}}]);
+//# sourceMappingURL=component---src-pages-projects-index-js-10c5e1b82526629718e5.js.map

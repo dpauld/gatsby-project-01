@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_project_01=self.webpackChunkgatsby_project_01||[]).push([[218],{6257:function(e,t,s){s.r(t);var a=s(7294);t.default=()=>a.createElement("div",null,"test")}}]);
+//# sourceMappingURL=component---src-pages-projects-test-js-050783cc7fef7286ba20.js.map
